@@ -1,23 +1,25 @@
 // This program will calculate the weekly paycheck of an employee
-// who works 19.5 hours a week at $12.75 an hour with an 8.25%
-// income tax
+// who works a certain number of hours per week with a 8.25% income tax
 
-/********/
-/********/
+/******************/
+using namespace std;
 
 int main()
 {
-	/********/
-	/********/
-	double incomeTaxRate = /********/;
+	/******************/ = 0.0825;
+	double /******************/, /******************/;
 
-	double income = /********/;
-	double tax = /********/;
+	cout << "How much do you earn per hour? $";
+	cin >> /******************/;
 
-	/********/
+	cout << "How many hours do you work per week? ";
+	cin >> /******************/;
 
-	cout << "Wages before tax is $" << /********/ << ".\n\n";
-	cout << "Wages after tax is $" << /********/ << ".\n";
+	/******************/ income = /******************/;
+	/******************/ taxDeducted = /******************/;
+
+	cout << "Wages before tax is $" << /******************/ << ".\n\n";
+	cout << "Wages after tax is $" << (/******************/) << ".\n";
 
 	return 0;
 }
